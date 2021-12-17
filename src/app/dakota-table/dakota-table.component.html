@@ -1,0 +1,26 @@
+<div id = 'Table'>
+    <div id = 'tableButtons'>
+        <div class="tableButton" (click) = 'displayOne()'>Links</div>
+        <div class="tableButton" (click) = 'displayTwo()'>Languages</div>
+        <div class="tableButton" (click) = 'displayThree()'>Option 3</div>
+    </div>
+
+    <div id = 'tableElements'>
+        <div id = 'Element1' [ngClass] = '{hidden: hidden1}'>
+            <div class="links">
+                <img class = 'logo' id = 'GitHubLogo' (click) = 'GoToGithub()'> <div class='linkText' (click) = 'GoToGithub()'>Github.com/DakotaJKorn</div>
+            </div>
+            <div class = 'links'>
+                <img class = 'logo' id = 'FacebookLogo' (click) = 'GoToFacebook()'> <div class='linkText' (click) = 'GoToFacebook()'>Facebook.com/DakotaKorn</div>
+            </div>
+        </div>
+        <div id = 'Element2' [ngClass] = '{hidden: hidden2}'>
+            <ul id="languageList">
+                <li *ngFor = 'let language of DakotaInfo.codingLanguages'>{{language}}</li>
+            </ul>
+        </div>
+        <div id = 'Element3' [ngClass] = '{hidden: hidden3}'>
+
+        </div>
+    </div>
+</div>

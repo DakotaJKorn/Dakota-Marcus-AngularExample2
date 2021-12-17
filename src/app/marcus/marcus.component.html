@@ -1,0 +1,34 @@
+<div class = 'InfoBox'>
+      <app-marcus-picture></app-marcus-picture>
+        <p class='info'>{{MarcusInfo.firstName}} {{MarcusInfo.lastName}}</p>
+        
+       
+
+      
+
+        <ul *ngIf = 'Clicked'>
+            <li *ngFor = 'let language of MarcusInfo.codingLanguages'>{{language}}</li>
+            
+            
+        </ul>
+    </div>
+
+<section>
+    <div class="example-label"></div>
+    <div class="example-button-row">
+      
+      <button (click) = 'buttonClicked()' [ngClass] = '{clicked: Clicked, unclicked:!Clicked}' mat-raised-button color="primary">Skills</button>
+      <button (click) = 'buttonClicked()' [ngClass] = '{clicked: Clicked, unclicked:!Clicked}' mat-raised-button color="primary">BIO</button>
+      <button mat-raised-button color="primary">Projects</button>
+      
+      <a mat-raised-button href="https://www.linkedin.com/in/marcus-ramirez-43b523134/" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+
+
+    
+  
+
+
+

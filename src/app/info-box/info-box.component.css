@@ -1,0 +1,11 @@
+#InfoBox{
+    width: 170px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#InfoText{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Noto Sans TC',sans-serif;
+}

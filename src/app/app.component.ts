@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { SideMenuComponent } from './side-menu/side-menu.component';
+import { MatSliderModule } from '@angular/material/slider';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-example2';
+
+  isExpanded = true;
+
+  
+  toggleExpanded(){
+   this.isExpanded = !this.isExpanded;
+  }
+
+
 }

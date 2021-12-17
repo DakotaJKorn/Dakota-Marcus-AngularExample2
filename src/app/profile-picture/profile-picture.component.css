@@ -1,0 +1,7 @@
+#image{
+    height: 200px;
+    content: url(Dakota-Profile-Pic.jpg);
+    border: 2px solid white;
+    border-radius: 25%;
+    object-fit: contain;
+}

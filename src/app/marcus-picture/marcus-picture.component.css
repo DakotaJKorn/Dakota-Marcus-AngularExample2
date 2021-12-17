@@ -1,0 +1,7 @@
+#image{
+    height: 200px;
+    content: url(https://media-exp1.licdn.com/dms/image/C4E03AQGunRjtIeI_6g/profile-displayphoto-shrink_200_200/0/1638938974084?e=1645056000&v=beta&t=gkkmsPWTi4PMITU-9jeQlc0N0dFisnYjPfS2VxkYNnQ);
+    border: 2px solid white;
+    border-radius: 25%;
+    
+}

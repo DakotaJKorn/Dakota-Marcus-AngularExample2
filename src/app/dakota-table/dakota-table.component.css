@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,regular,500,700,900);
+
+.hidden{
+    display: none;
+}
+
+#Table{
+    background-color: #d7f0ff;
+    width: 60%;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: -275px;
+}
+
+#tableButtons{
+    display: table;
+    width: 100%;
+}
+
+.tableButton{
+    align-self: center;
+    float: left;
+    width: 33%;
+    height: 40px;
+    text-align: center;
+    text-justify: center;
+    background-image: linear-gradient(0deg,#3381b0,#87cefa);
+    border: 1px solid #3381b0;
+    line-height: 40px;
+    font-family: 'Noto Sans TC',sans-serif;
+    color: black;
+}
+
+.tableButton:hover{
+    background-image: linear-gradient(180deg,#3381b0,#87cefa);
+    cursor: pointer;
+}
+
+#tableElements{
+    margin-top: -14px;
+    
+}
+
+#languageList{
+    padding-left: 0;
+    
+    
+}
+#languageList > li{
+    padding-left: 0;
+    list-style-type: none;
+    height: 50px;
+    padding-left: 20px;
+    line-height: 50px;
+    font-size:large;
+    font-family: 'Noto Sans TC',sans-serif;
+    
+}
+
+.links{
+    display: flex;
+    height: 120px;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+}
+
+#GitHubLogo{
+    content: url(GitHubLogo.png);
+    cursor: pointer;
+}
+
+#FacebookLogo{
+    content: url(FacebookLogo.png);
+    cursor: pointer;
+}
+
+.linkText{
+    margin-left: 50px;
+    font-size:x-large;
+    cursor: pointer;
+}
